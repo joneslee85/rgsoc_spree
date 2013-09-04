@@ -1,4 +1,4 @@
 Deface::Override.new(virtual_path:  'spree/products/show',
                      insert_after:  'h1.product-title',
-                     text:          '<h2 class="sale">On Sale</h2>',
+                     partial:       'products/on_sale_label',
                      name:          'product_sale')
